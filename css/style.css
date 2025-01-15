@@ -50,23 +50,23 @@ header h1 {
     justify-content: center;
     padding: 40px;
     flex: 1;
-    background-color: #fff; /* White background for clean contrast */
+    background-color: #fff; 
 }
 
 .profile img {
     border-radius: 50%;
-    width: 300px; /* Increased size */
-    height: 300px; /* Increased size */
+    width: 300px; 
+    height: 300px; 
     object-fit: cover;
     margin-right: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for emphasis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .intro {
     max-width: 600px;
     font-size: 16px;
     line-height: 1.5;
-    color: #ae9413; /* Dark text for better contrast */
+    color: #ae9413; 
 }
 
 .intro p {
@@ -75,7 +75,7 @@ header h1 {
 
 /* Footer Section */
 footer {
-    background-color:  #b9a676; /* Dark slate blue */
+    background-color:  #b9a676; 
     color: rgb(76, 75, 82);
     padding: 20px 0;
     text-align: center;
