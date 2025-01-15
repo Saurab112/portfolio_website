@@ -1,0 +1,103 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Overall Page Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #F0F4EF; /* Soft background */
+}
+
+/* Header Section */
+header {
+    background-color: #b9a676; 
+    color: #a67c52;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.resume-link {
+    color: white;
+    text-decoration: none;
+    background-color: #a67c52; /* A golden tone for contrast */
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Main Section */
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex: 1;
+    background-color: #fff; /* White background for clean contrast */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 300px; /* Increased size */
+    height: 300px; /* Increased size */
+    object-fit: cover;
+    margin-right: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for emphasis */
+}
+
+.intro {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ae9413; /* Dark text for better contrast */
+}
+
+.intro p {
+    text-align: justify;
+}
+
+/* Footer Section */
+footer {
+    background-color:  #b9a676; /* Dark slate blue */
+    color: rgb(76, 75, 82);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: rgb(37, 31, 7);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #d0d0d6; /* Highlight color when hovered */
+}
+
+footer p {
+    font-size: 12px;
+    margin: 10px 0 0;
+}
